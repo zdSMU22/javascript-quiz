@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    padding: 200px 0;
+}
+
+h1 { 
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#button{
+    background-color: purple;
+    color: white;
+    height: 100px;
+    width: 250px;
+    font-size: 30px;
+}
+
