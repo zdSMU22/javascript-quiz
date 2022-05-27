@@ -11,11 +11,31 @@ p {
     font-size: 30px;
 }
 
-#btn-begin{
-    background-color: purple;
-    color: white;
-    height: 100px;
-    width: 250px;
-    font-size: 30px;
+header{
+    display: flex;
+    justify-content: space-between;
 }
 
+#btn-begin{
+    background-color: rgb(0, 45, 128);
+    color: white;
+    height: 75px;
+    width: 250px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+
+#viewScores{
+    background-color: rgb(0, 128, 96);
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 50%;
+}
+
+#timer{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

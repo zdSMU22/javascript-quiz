@@ -4,17 +4,22 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
         <link rel="stylesheet" href="./assets/CSS/style.css">
-    
         <title>Coding Quiz</title>
     </head>
     
     <body>
-        <div class="container"></div>
-        <div id="timer"></div>
-        <h3 id="score"></h3>
+        <header>
+        <div id="score">
+            <button class="btn-highScores"  id="viewScores">View High Scores</button>
+        </div>
+        <div id="timer">
+           <p>Time: <span id="timeLeft"></span></p>
+        </div>
+</header>
 
+<div class="container">
+        <div id="start">
         <h1>Coding Quiz Challenge</h1>
 
         <p>Try to answer the following code-related questions within the time limit.
@@ -22,12 +27,11 @@
         </p>
 
         <button id="btn-begin">Begin Quiz</button>
-    </section>
+        </div>
 
         <div id="quiz"></div>
-        <button id="btn-submit"></button>
-        <div id="see-result"></div>
-        
+        <div id="btn-submit"></div>
+        </div>
     </body>
 
     <script src="./assets/JS/script.js"></script>
