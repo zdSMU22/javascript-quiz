@@ -10,3 +10,7 @@ The quiz should include:
 * The game terminates when all questions are answered or the timer reaches 0
 
 * When the game is over the player is able to enter their intials and see score
+
+
+I am still working on getting this to work but decided to submit what I have. 
+Screenshot and links will be updated on completion.

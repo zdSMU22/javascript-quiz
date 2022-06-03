@@ -1,3 +1,4 @@
+//variable needed to call functions
 var startQuiz = document.querySelector("#btn-begin");
 var Scores = document.querySelector("#btn-highScores")
 var timerEl = document.querySelector("#timer");
@@ -10,7 +11,7 @@ var submitScore = document.querySelector("#submitScore");
 var highScoreName = document.querySelector("#nameTextArea");
 var highScorePage = document.createElement ("enterIntials");
 
-
+//start of questions to be asked during the quiz
 var questions = {
     0: "Javascript is what type of language?",
     1: "Which of the following keywords is used to define a variable in Javascript?",
@@ -32,6 +33,7 @@ var answers = {
     }
 }
 
+//hides items until they need to be displayed
 answer1.style.display = "none";
 answer2.style.display = "none";
 answer3.style.display = "none";
@@ -62,7 +64,6 @@ startQuiz.addEventListener("click", function startTimer() {
     }, 1000);
 });
 
-//See lines 232
     if(timeLeft >0) {
         questionContainer.style.display = "";
         answer1.style.display = "";
@@ -82,12 +83,4 @@ startQuiz.addEventListener("click", function startTimer() {
 
 
 
-// see lines 79-99 on dump
-// Scores.addEventListener("click", function(){
-//     var playerIntials = "";
-//     var playerScore = "";
 
-//     for (var i=0; i < localStorage.length; i++){
-//         var 
-//     }
-// })
