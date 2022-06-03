@@ -11,7 +11,7 @@
     <body>
         <header>
         <div id="score">
-            <button class="btn-highScores"  id="viewScores">View High Scores</button>
+           <a href="./highScore.html"><button class="btn-highScores"  id="viewScores">View High Scores</button></a>
         </div>
         <div id="timer">
            <p>Time: 75 <span id="timeLeft"></span></p>
@@ -26,12 +26,23 @@
         </br> Keep in mind that incorrect answers will penalize your score and time.
         </p>
 
-        <button id="btn-begin">Begin Quiz</button>
+<button id="btn-begin">Begin Quiz</button>
         </div>
 
-        <div id="quiz"></div>
-        <div id="btn-submit"></div>
+        <button class="btn" id="answer1"></button>
+        <button class="btn" id="answer2"></button>
+        <button class="btn" id="answer3"></button>
+        <button class="btn" id="answer4"></button>
+        <button class="btn" id="submitScore"></button>
+    
+        <div id="finalScore">
+            <p id="finalScoreShwon"></p>
+            <p id="enterInitials"></p>
+            <textarea id="nameTextArea"></textarea>
         </div>
+        </div>
+
+
     </body>
 
     <script src="./assets/JS/script.js"></script>
